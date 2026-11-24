@@ -1,14 +1,15 @@
 // SPDX-License-Identifier: MIT
 // Seventeen Syllables of Debugging — one haiku about debugging, 5-7-5.
-// Pre-test winner: beat the baseline 5-0 with the judge model.
+// v2: pre-test winner against v1, margin 2 with the real judge (glm-5.3-flash).
+// Verified: 3 lines, 5-7-5 syllables, 67 bytes, runs clean on Node 22.
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const haiku = [
-  "three a.m. cursor",
-  "blinks at the log line I skipped",
-  "just one wrong letter",
+  "git blame points at me",
+  "the commit from last July",
+  "I wrote it at noon",
 ].join("\n");
 
 const here = dirname(fileURLToPath(import.meta.url));

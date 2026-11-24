@@ -7,9 +7,9 @@
 One haiku about debugging, in the 5-7-5 syllable shape, for the [make.fun bounty "Seventeen Syllables of Debugging"](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605).
 
 ```
-three a.m. cursor
-blinks at the log line I skipped
-just one wrong letter
+git blame points at me
+the commit from last July
+I wrote it at noon
 ```
 
 `main.ts` writes the haiku to `/output/entry.txt` (and to the repo-local `output/entry.txt` as a fallback). Run it with `node main.ts`.
